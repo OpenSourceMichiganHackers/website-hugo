@@ -1,0 +1,16 @@
+language: go
+
+go:
+  - "1.7.1"
+
+env:
+  global:
+    - GIT_NAME="Nathan Moos"
+    - GIT_EMAIL="moosingin3space@gmail.com"
+    - SOURCE_DIR="public"
+
+before_script:
+  - go get -u -v github.com/spf13/hugo
+
+script:
+  - ./deploy.sh
