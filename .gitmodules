@@ -2,3 +2,8 @@
 	path = public
 	url = git@github.com:OpenSourceMichiganHackers/OpenSourceMichiganHackers.github.io.git
 	branch = master
+
+[submodule "greyshade"]
+	path = themes/greyshade
+	url = https://github.com/cxfksword/greyshade.git
+	branch = master
