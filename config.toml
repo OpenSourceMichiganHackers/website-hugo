@@ -1,3 +1,3 @@
-baseurl = "http://example.org/"
+baseurl = "https://opensourcemichiganhackers.github.io"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Michigan Hackers Open-Source"
