@@ -2,5 +2,9 @@ baseurl = "https://opensourcemichiganhackers.github.io"
 languageCode = "en-us"
 title = "Michigan Hackers Open-Source"
 
+[author]
+name = "Michigan Hackers Open Source Club"
+
 [params]
 description = "Building an open environment where people can freely share and build upon ideas that contribute to various communities on the web."
+github_user = "OpenSourceMichiganHackers"
