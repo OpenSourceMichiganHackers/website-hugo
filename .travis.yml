@@ -12,6 +12,7 @@ git:
   - chmod 0600 travis_key
   - eval `ssh-agent -s`
   - ssh-add travis_key
+  - git submodule update --init --recursive
 branches:
   only:
   - master
